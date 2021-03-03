@@ -20,10 +20,10 @@ int main()
         count++;
 
         /* Remove last digit of 'num' */
-        num /= 10;
-    } while(  != 0);
+        num = 10;
+    } while(num != 0);
 
-    printf("Total digits: %d", );
+    printf("Total digits: %d",num);
 
     return 0;
 }
